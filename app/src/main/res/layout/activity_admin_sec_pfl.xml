@@ -29,7 +29,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/mons" />
+            android:src="@drawable/frog" />
     </androidx.cardview.widget.CardView>
 
     <TextView
@@ -52,7 +52,7 @@
         android:background="@drawable/bg_edit"
         android:paddingVertical="10dp"
         android:paddingStart="10dp"
-        android:text="우츠동"
+        android:text="우"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@id/tv_name"
         app:layout_constraintStart_toStartOf="@id/tv_name"
@@ -106,7 +106,7 @@
         android:background="@drawable/bg_edit"
         android:paddingVertical="10dp"
         android:paddingStart="10dp"
-        android:text="5살"
+        android:text="2살"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@id/tv_name"
         app:layout_constraintStart_toStartOf="@id/tv_name"
@@ -133,7 +133,7 @@
         android:background="@drawable/bg_edit"
         android:paddingVertical="10dp"
         android:paddingStart="10dp"
-        android:text="강아지"
+        android:text="고양이"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@id/tv_name"
         app:layout_constraintStart_toStartOf="@id/tv_name"

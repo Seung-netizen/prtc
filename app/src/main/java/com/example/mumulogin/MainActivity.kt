@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.mumulogin.databinding.ActivityMainBinding
+import kotlin.jvm.java
 
 class MainActivity : AppCompatActivity() {
 
@@ -36,6 +37,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.layoutMy1.setOnClickListener {
             val intent = Intent(this, AdminPfl1::class.java)
+            startActivity(intent)
+        }
+        binding.layoutMy2.setOnClickListener {
+            val intent = Intent(this, AdminSecPfl::class.java)
             startActivity(intent)
         }
         binding.tbBack.setOnClickListener {

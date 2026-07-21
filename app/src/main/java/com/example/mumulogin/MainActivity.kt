@@ -31,6 +31,11 @@ class MainActivity : AppCompatActivity() {
         }
         binding.layoutAn.setOnClickListener {
             val intent = Intent(this, AdminAnimal::class.java)
+            startActivity(intent)
+        }
+        binding.layoutMy1.setOnClickListener {
+            val intent = Intent(this, AdminPfl::class.java)
+            startActivity(intent)
         }
     }
 }

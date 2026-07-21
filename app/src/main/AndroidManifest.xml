@@ -30,7 +30,7 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".AdminPfl"
+            android:name=".AdminPfl1"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

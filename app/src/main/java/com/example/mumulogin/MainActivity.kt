@@ -22,9 +22,10 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        nextScreen()
+        screen()
     }
-    private fun nextScreen(){
+
+    private fun screen() {
         binding.layoutMo.setOnClickListener {
             val intent = Intent(this, MoInfo::class.java)
             startActivity(intent)
@@ -34,8 +35,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.layoutMy1.setOnClickListener {
-            val intent = Intent(this, AdminPfl::class.java)
+            val intent = Intent(this, AdminPfl1::class.java)
             startActivity(intent)
+        }
+        binding.tbBack.setOnClickListener {
+            finish()
         }
     }
 }

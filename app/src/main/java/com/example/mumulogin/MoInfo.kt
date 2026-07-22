@@ -21,12 +21,5 @@ class MoInfo : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        screen()
-    }
-
-    private fun screen() {
-        binding.tbBack.setOnClickListener {
-            finish()
-        }
     }
 }

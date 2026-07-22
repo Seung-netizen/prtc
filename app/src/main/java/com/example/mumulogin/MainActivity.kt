@@ -43,8 +43,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AdminSecPfl::class.java)
             startActivity(intent)
         }
-        binding.tbBack.setOnClickListener {
-            finish()
-        }
     }
 }

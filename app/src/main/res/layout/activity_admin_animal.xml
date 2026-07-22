@@ -8,14 +8,6 @@
     android:background="@drawable/bg_bg_clr"
     tools:context=".AdminAnimal">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tb_back"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navigationIcon="?attr/homeAsUpIndicator" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout_first_an"
         android:layout_width="match_parent"

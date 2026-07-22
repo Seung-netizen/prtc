@@ -8,14 +8,6 @@
     android:background="@drawable/bg_bg_clr"
     tools:context=".MoInfo">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tb_back"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navigationIcon="?attr/homeAsUpIndicator" />
-
     <androidx.cardview.widget.CardView
         android:id="@+id/iv_pic"
         android:layout_width="127dp"

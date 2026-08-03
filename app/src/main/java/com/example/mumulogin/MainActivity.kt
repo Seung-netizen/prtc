@@ -25,6 +25,9 @@ class MainActivity : AppCompatActivity() {
         }
         screen()
     }
+    dksankgna
+    gkuiw172k
+    fm,kdlaas
 
     private fun screen() {
         binding.layoutMo.setOnClickListener {

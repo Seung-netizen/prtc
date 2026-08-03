@@ -29,6 +29,10 @@ class MainActivity : AppCompatActivity() {
     gkuiw172k
     fm,kdlaas
 
+    sndkajgkad
+    f17284kjad
+    sda
+
     private fun screen() {
         binding.layoutMo.setOnClickListener {
             val intent = Intent(this, MoInfo::class.java)

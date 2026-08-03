@@ -8,14 +8,21 @@
     android:background="@drawable/bg_bg_clr"
     tools:context=".MoInfo">
 
-    <ImageView
+    <androidx.cardview.widget.CardView
         android:id="@+id/iv_pic"
         android:layout_width="127dp"
         android:layout_height="127dp"
         android:layout_marginTop="40dp"
+        app:cardCornerRadius="63dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/frog" />
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/tv_id"
@@ -24,7 +31,8 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_start_line"
-        android:hint="아이디"
+        android:text="아이디"
+        android:textColor="#797979"
         android:paddingStart="16dp"
         android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +58,8 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_start_line"
-        android:hint="이름"
+        android:text="이름"
+        android:textColor="#797979"
         android:paddingStart="16dp"
         android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="@id/tv_id"
@@ -76,7 +85,8 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_start_line"
-        android:hint="전화번호"
+        android:text="전화번호"
+        android:textColor="#797979"
         android:paddingStart="16dp"
         android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="@id/tv_id"
@@ -102,7 +112,8 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_start_line"
-        android:hint="주소"
+        android:text="주소"
+        android:textColor="#797979"
         android:paddingStart="16dp"
         android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="@id/tv_id"
@@ -128,9 +139,10 @@
         android:layout_marginHorizontal="32dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_start_line"
-        android:hint="새 비밀번호"
+        android:text="새 비밀번호"
         android:paddingStart="16dp"
         android:textSize="11sp"
+        android:textColor="#797979"
         app:layout_constraintEnd_toEndOf="@id/tv_id"
         app:layout_constraintStart_toStartOf="@id/tv_id"
         app:layout_constraintTop_toBottomOf="@id/et_adre" />
